@@ -26,8 +26,7 @@ Task 19: JavaScript - jQuery
 Task 20: Capstone Project IV
 Task 21: Command Line for Web Development
 Task 22: Version Control - Introduction to Git
-Task 23: Version Control - Git Basics
-Task 24: Deployment of Static Websites
+
 Task 1: Thinking Like a Programmer - Pseudocode
 This task introduces pseudocode, a way of planning your logic and structuring your thoughts before writing actual code. It emphasizes breaking down problems and writing steps in plain language to develop a solid approach to problem-solving.
 
@@ -94,9 +93,5 @@ Learn how to use the command line to navigate the file system, manage files, and
 Task 22: Version Control I - Introduction to Version Control and Git
 Version control allows you to track changes to your codebase. This task introduces Git, a powerful version control system that helps you manage project versions.
 
-Task 23: Version Control II - Git Basics
-In this task, you will learn essential Git commands to create repositories, track changes, and collaborate with others.
 
-Task 24: Version Control III - Deployment of Static Websites
-Learn how to deploy your static websites (HTML, CSS, and JavaScript files) using version control and hosting services like GitHub Pages.
 
