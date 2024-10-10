@@ -1,0 +1,212 @@
+/* Global Styles */
+body, header {
+  background-color: rgb(0, 0, 0);
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  color: #f1ecec;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Header */
+header {
+  padding: 20px;
+}
+
+/* Navigation */
+nav {
+  background-color: #333;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+nav ul li {
+  margin-right: 10px;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+nav ul li a:hover {
+  background-color: #666;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+main section {
+  margin-bottom: 20px;
+}
+main blockquote {
+  border-left: 3px solid #666;
+  padding-left: 10px;
+}
+main .borderquote {
+  color: aliceblue;
+  margin-top: 20px;
+  border: 10px;
+  border-radius: 10px;
+  border-style: double;
+  padding: 0 5px;
+}
+main table {
+  width: 100%;
+  border-collapse: collapse;
+}
+main table th, main table td {
+  color: #fff;
+  border: 1px solid #1f6d1b;
+  padding: 10px;
+}
+
+/* Additional Styles */
+main section1 {
+  color: #fff;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+main section2 {
+  color: #fff;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+main section3 {
+  color: #fff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.back {
+  background-color: rgb(0, 0, 0);
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.image-container {
+  position: relative;
+}
+.image-container img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.image-container .zoomed-image {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 90%;
+  max-height: 90%;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.1s;
+  z-index: 9999;
+}
+.image-container .zoomed-image img {
+  width: 100%;
+  height: auto;
+}
+.image-container:hover .zoomed-image {
+  visibility: visible;
+  opacity: 1;
+}
+
+#panel2 {
+  width: auto;
+  height: auto;
+  background-color: rgba(145, 63, 63, 0.4117647059);
+  padding: 20px;
+  border-radius: 8px;
+  padding-top: 10px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#panel1 {
+  width: auto;
+  height: 200px;
+  background-color: rgba(33, 33, 33, 0.4117647059);
+  padding: 20px;
+  border-radius: 8px;
+  padding-top: 30px;
+  position: relative;
+  background-image: url("_images/2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#panel3 {
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 104, 3, 0.4117647059);
+  padding: 20px;
+  border-radius: 8px;
+  padding-top: 30px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.centerimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerimg img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px; /* Adjust the width to your preference */
+  height: 250px; /* Adjust the height to your preference */
+}
+
+.imagedisplay {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px; /* Adjust the gap between images */
+}
+.imagedisplay img {
+  border-radius: 10px;
+  width: 200px; /* Adjust the width of each image */
+  height: 200px; /* Adjust the height of each image */
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+form label {
+  display: block;
+  color: aqua;
+  margin-bottom: 5px;
+}
+form input[type=email] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+form input[type=radio] {
+  margin-right: 5px;
+}/*# sourceMappingURL=main.css.map */

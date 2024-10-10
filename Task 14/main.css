@@ -1,0 +1,459 @@
+/* Styling for h1 element */
+h1 {
+  color: rgb(0, 0, 0); 
+  font-family: "Franklin Gothic Medium"; 
+  font-size: 15pt; 
+  text-align: center; 
+}
+
+/* Styling for h2 element */
+h2 {
+  color: rgb(230, 102, 52); /* Text color */
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 20pt; 
+  text-align: center; /* Text alignment */
+}
+
+/* Styling for h3 element */
+h3{
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 20pt; 
+  padding-top: 10px; 
+}
+
+/* Styling for h4 element */
+h4{
+  color: rgb(0, 0, 0); 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 15pt; 
+}
+
+/* Styling for header element */
+header {
+  position: fixed;
+  top: 0; /* Distance from top */
+  left: 0; /* Distance from left */
+  width: 100%; /* Full width */
+  z-index: 999; /* Stack order */
+}
+
+/* Styling for p3 element */
+p3{
+  margin-right: 20px; 
+  font-size: 10pt; 
+}
+
+/* Styling for menu class */
+.menu {
+  width: 30%; 
+  float: left; 
+}
+
+/* Styling for main class */
+.main {
+  width: 70%;
+  float: left; 
+}
+
+/* Styling for navbar class */
+.navbar {
+  background-color: #f2f2f2; 
+  height: 50px; 
+  display: flex; 
+  align-items: center; 
+  padding: 0 20px; 
+  padding-bottom: 20px; 
+}
+
+/* Styling for navbar-cart-icon class */
+.navbar-cart-icon {
+  font-size: 20px; 
+}
+
+/* Styling for ul element */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  margin-right: 300px; 
+  padding: 0; 
+  font-size: small; 
+  overflow: hidden; /* Overflow behavior */
+}
+
+/* Styling for li element */
+li {
+  float: left; /* Floating to the left */
+}
+
+/* Styling for li a and .dropbtn elements */
+li a, .dropbtn {
+  display: inline-block;
+  color: rgb(0, 0, 0); 
+  text-align: center; 
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Styling for li a:hover and .dropdown:hover .dropbtn elements */
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(100, 100, 100); 
+}
+
+/* Styling for li.dropdown element */
+li.dropdown {
+  display: inline-block; 
+}
+
+/* Styling for dropdown-content class */
+.dropdown-content {
+  display: none; 
+  position: absolute; 
+  background-color: #f9f9f9; 
+  min-width: 60px; 
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+  z-index: 1; 
+}
+
+/* Styling for dropdown-content a elements */
+.dropdown-content a {
+  color: black; 
+  padding: 12px 16px; 
+  text-decoration: none; 
+  display: block; 
+  text-align: center; 
+}
+
+/* Styling for dropdown-content a:hover elements */
+.dropdown-content a:hover {background-color: #f1f1f1;} 
+
+/* Styling for dropdown:hover .dropdown-content elements */
+.dropdown:hover .dropdown-content {
+  display: block; 
+}
+
+/* Styling for button class */
+.button {
+  border: none; 
+  padding: 10px;
+  text-align: center; 
+  text-decoration: none; 
+  margin: 4px 2px; 
+  cursor: pointer; 
+}
+
+/* Styling for button1 class */
+.button1{
+  border-radius: 12px; 
+  color: white; 
+  background-color: #ffbf00;  
+}
+
+/* Styling for button2 class */
+.button2{
+  border-radius: 8px;
+  color: white; 
+  background-color: #ff7300;  
+}
+
+/* Styling for button3 class */
+.button3{
+  border-radius: 8px; 
+  color:  #ff7300; 
+}
+
+/* Styling for button4 class */
+.button4{
+  border-radius: 8px; 
+  color:  #00f2ff; 
+}
+
+/* Styling for panel1 id */
+#panel1 {
+  width: auto;
+  height: 400px; 
+  background-color: #3a3a3a47; 
+  padding: 20px;
+  padding-top: 30px; 
+}
+
+/* Styling for panel1-button class */
+.panel1-button {
+  display: block; 
+  padding: 10px;
+  margin-top: 10px; 
+  background-color: #00b90f; 
+  border-radius: 8px; 
+  color: #fff; 
+  text-align: center; 
+  text-decoration: none; 
+  border: none; 
+  cursor: pointer; /* Cursor style */
+}
+
+/* Styling for panel1-image class */
+.panel1-image {
+  width: 75%; 
+  height: 300px; 
+  margin-top: 10px; 
+  margin-left: 20%; 
+}
+
+/* Styling for panel2 id */
+#panel2 {
+  width: auto; 
+  height: auto; 
+  background-color: #d7d7d747; 
+  padding: 20px; 
+}
+
+/* Styling for h5 element */
+h5 {
+  color: rgb(0, 0, 0); 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 20pt;
+  text-align: center; 
+}
+
+/* Styling for grid-container class */
+.grid-container {
+  display: grid; /* Display as grid */
+  grid-template-columns: auto auto auto; /* Grid columns */
+  gap: 10px; /* Gap between grid items */
+  padding: 10px;
+}
+
+/* Styling for grid-container > div elements */
+.grid-container > div {
+  display: flex;
+  flex-direction: column; 
+  text-align: center; 
+  overflow: hidden;
+  margin-bottom: -220px; 
+}
+
+/* Styling for grid-container2 class */
+.grid-container2{
+  display: grid; /* Display as grid */
+  grid-template-columns: auto auto auto; /* Grid columns */
+  gap: 10px; /* Gap between grid items */
+  padding: 10px;
+}
+
+/* Styling for grid-container2 > div elements */
+.grid-container2 > div {
+  display: flex;
+  flex-direction: column; 
+  overflow: hidden; 
+}
+
+/* Styling for item1 class */
+.item1 { grid-area: 1 / 3 / 2; }
+
+/* Styling for p4 element */
+p4 {
+  font-size: small; 
+}
+
+/* Styling for center-image class */
+.center-image {
+  justify-content: center; 
+  align-items: center; 
+  height: 20%; 
+}
+
+/* Styling for text-center class */
+.text-center {
+  text-align: center; 
+}
+
+/* Styling for h6 element */
+h6 {
+  color: rgb(0, 0, 0); 
+  font-family: "Courier New", Courier, monospace; 
+  font-size: 10pt; 
+  text-align: center; 
+}
+
+/* Styling for panel3 id */
+#panel3 {
+  background-image: url("https://images.ucook.co.za/images/width=1600%7Cheight=500%7Cencoding=webp/72123055-531e-4022-b96d-ccdee2b5c123.webp"); /* Background image */
+  width: auto; 
+  height: auto; 
+}
+
+#centerpanel {
+  /* Styles for the center panel */
+  width: 800px;
+  height: 250px;
+  border-radius: 8px;
+  background-color: #f1f1f1b2;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.center-panel{
+  /* Styles for the center panel container */
+  padding-top: 10%;
+  padding-bottom: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button5{
+  /* Styles for button 5 */
+  border-radius: 8px;
+  color: white;
+  background-color: #067a15; 
+  margin: 4px 2px;
+}
+
+.center-button{
+  /* Styles for center button */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h7{
+  /* Styles for heading 7 */
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium";
+  font-size: 15pt;
+}
+
+#panel4 {
+  /* Styles for panel 4 */
+  width: auto;
+  height: auto;
+  background-color: #b6b2b247;
+  padding: 20px;
+}
+
+.button6{
+  /* Styles for button 6 */
+  border-radius: 8px;
+  color: white;
+  background-color: #000000; 
+  margin: 4px 2px;
+}
+
+#panel5 {
+  /* Styles for panel 5 */
+  width: auto;
+  height: 400px;
+  background-color: #e2e1e147;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+h8{
+  /* Styles for heading 8 */
+  color: rgb(0, 0, 0);
+  font-family: "Franklin Gothic Medium";
+  font-size: 10pt;
+  margin-bottom: 10px;
+}
+
+.slider-container {
+  /* Styles for the slider container */
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.slider-nav {
+  /* Styles for the slider navigation */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.nav-item {
+  /* Styles for the navigation item */
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #f0f0f0;
+}
+
+.slider {
+  /* Styles for the slider */
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.slide {
+  /* Styles for the slide */
+  display: flex;
+  flex-wrap: nowrap;
+  scroll-snap-align: start;
+  padding: 10px;
+}
+
+.slide .image-container {
+  /* Styles for the image container within a slide */
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%; /* Ensure the container takes full width */
+}
+
+.slide img {
+  /* Styles for the images within a slide */
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  margin-right: 10px;
+  scroll-snap-align: start;
+}
+.container {
+  /* Styles for the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.input-group button {
+  /* Styles for the button in the input group */
+  padding: 5px 10px;
+  border-radius: 4px;
+  background-color: #067a15;
+  color: white;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.row {
+  /* Styles for the row */
+  margin-top: 10px;
+  display: flex;
+}
+
+.column {
+  /* Styles for the column */
+  flex: 1;
+  padding: 10px;
+}
+
+.column h4 {
+  /* Styles for the heading within the column */
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.column p {
+  /* Styles for the paragraphs within the column */
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+
+
+
+
+/*# sourceMappingURL=main.css.map */
