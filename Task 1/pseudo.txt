@@ -1,0 +1,66 @@
+1. Vowels
+
+Initialize vowel_Count to 0
+
+Repeat
+	request input from user
+	store input into variable called "user_Input"
+
+	if "user_Input" is a number 
+		Exit the loop
+
+	Otherwise if "user_Input" is a vowel
+		increase vowel_Count by 1
+
+Output total number of vowels entered (vowel_Count)
+
+
+2. Integers
+
+Initialize total_Sum to 0
+Initialize even_Count to 0
+Initialize odd_Count to 0
+
+Repeat
+    request input from user
+    store input into variable called "user_Input"
+
+    If the "user_Input" is not an integer number, ignore it and continue
+    If the "user_Input" is zero, 
+	Exit the loop
+
+    Add the "user_Input" to total_Sum
+    If the "user_Input" is even
+        increase even_Count by 1
+    Otherwise
+        increase odd_Count by 1
+
+	if even_Count is greater than zero
+    		Set even_Average to total_Sum divided by even_Count
+
+	else
+   		Set even_Average to 0
+
+	if odd_Count is greater than zero
+   	 	Set odd_Average to total_Sum divided by odd_Count
+
+	else
+    		Set odd_Average to 0
+
+Output (even_Average) and (odd_Average)
+
+
+3. Alphabetical order
+
+Initialize an empty list called "names".
+
+Reapeat
+	request input from user 
+	store input into variable called "name"
+	Add "name" to "names" 
+
+	Sort the list "names" in alphabetical order.
+
+	For each name in the sorted list
+
+Output (name)

@@ -1,0 +1,16 @@
+ request input from the user 
+ store it in a variable called "n".
+
+ Initialize a boolean variable is_prime to true. 
+
+ If "n" is less than 2, set is_prime to false.
+	Output  (n) "is not a prime number."
+
+ For each integer i between 2 and the square root of "n", 
+ if "n" is divisible by i, set is_prime to false.
+	Output (n) "is not a prime number."
+
+ if is_prime is still true, 
+	Output  (n) "is not a prime number."
+
+ else, Output (n) "is not a prime number."

@@ -1,0 +1,17 @@
+1.First Name
+
+request input from the user 
+store it in a variable called "first_Name".
+
+Output the string "Hello " and the variable (first_Name).
+
+request second input from the user 
+store it in a variable called "age".
+
+Get the current year
+store it in a variable called "current_year".
+
+Subtract the user's "age" from the "current_year"
+store the result in a variable called "birth_year".
+
+Output the message Based on your age of (age), it looks like you were born in (birth_year).
